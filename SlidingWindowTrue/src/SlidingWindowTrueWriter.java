@@ -272,7 +272,7 @@ Right now only the boolean arrays for single segment were printed.
 	
 	public static void main(String[] args) throws IOException{
 		SlidingWindowTrueWriter swtw = new SlidingWindowTrueWriter("U:\\KTEA_proteome.txt");
-		swtw.write("U:\\KTEA_proteome_boolean.xls",14,10,10);
+		swtw.write("U:\\KTEA_proteome_boolean.txt",14,10,10);
 	}
 
 }
