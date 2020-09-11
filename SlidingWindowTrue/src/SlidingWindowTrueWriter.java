@@ -50,7 +50,7 @@ Possible changes include: tab delimiter (comma or tab), number of tabs before th
 			
 /**********************
 Pick out single segment that has a higher expression value 
-(above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other sections. 
+(above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other segments. 
 **********************/
 					
 			boolean[] singleBooleanArray = new boolean [numberOfSegment];
@@ -72,7 +72,7 @@ Pick out single segment that has a higher expression value
 			
 /**********************
 Pick out continuous double segments (intra-segment expression difference is <"foldChangeThres" times) 
-that has higher expression values (both above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other sections. 
+that has higher expression values (both above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other segments. 
 **********************/			
 					
 			boolean[] doubleBooleanArray = new boolean [numberOfSegment-1];
@@ -100,7 +100,7 @@ that has higher expression values (both above the "minimumAbsoluteValue" and >"f
 
 /**********************
 Pick out continuous three segments (intra-segment expression differences are <"foldChangeThres" times) 
-that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other sections. 
+that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other segments. 
 **********************/	
 		
 			boolean[] threeBooleanArray = new boolean [numberOfSegment-2];
@@ -129,7 +129,7 @@ that has higher expression values (all above the "minimumAbsoluteValue" and >"fo
 			
 /**********************
 Pick out continuous four segments (intra-segment expression differences are <"foldChangeThres" times) 
-that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other sections. 
+that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other segments. 
 **********************/		
 
 			boolean[] fourBooleanArray = new boolean [numberOfSegment-3];
@@ -159,7 +159,7 @@ that has higher expression values (all above the "minimumAbsoluteValue" and >"fo
 			
 /**********************
 Pick out continuous five segments (intra-segment expression differences are <"foldChangeThres" times) 
-that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other sections. 
+that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other segments. 
 **********************/	
 
 			boolean[] fiveBooleanArray = new boolean [numberOfSegment-4];
@@ -190,7 +190,7 @@ that has higher expression values (all above the "minimumAbsoluteValue" and >"fo
 			
 /**********************
 Pick out continuous six segments (intra-segment expression differences are <"foldChangeThres" times) 
-that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other sections. 
+that has higher expression values (all above the "minimumAbsoluteValue" and >"foldChangeThres" times higher) than all other segments. 
 **********************/	
 
 			boolean[] sixBooleanArray = new boolean [numberOfSegment-5];
