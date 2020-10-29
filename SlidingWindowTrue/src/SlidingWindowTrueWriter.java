@@ -233,6 +233,7 @@ The content for the final printout can be adjusted based on user need.
 			
 			for(int i=0; i<singleBooleanArray.length; i++){
 				pw.print("\t"+singleBooleanArray[i]);
+			}
 			for(int i=0; i<doubleBooleanArray.length; i++){
 				pw.print("\t"+doubleBooleanArray[i]);
 			}
