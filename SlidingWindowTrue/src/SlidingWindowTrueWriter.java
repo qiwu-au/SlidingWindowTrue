@@ -227,44 +227,27 @@ If there is a need to go above six continuous segments,the code can be easily ad
 /**********************
 Print out the output file.
 The content for the final printout can be adjusted based on user need.
-Right now only the boolean arrays for single segment were printed.
 **********************/		
 			
 			pw.print(line);
 			
 			for(int i=0; i<singleBooleanArray.length; i++){
 				pw.print("\t"+singleBooleanArray[i]);
-			}
-			
-/*****
-  De-annotate to include them in the execution
- *****/		
-			
-/*
 			for(int i=0; i<doubleBooleanArray.length; i++){
 				pw.print("\t"+doubleBooleanArray[i]);
 			}
-*/
-/*
 			for(int i=0; i<threeBooleanArray.length; i++){
 				pw.print("\t"+threeBooleanArray[i]);
 			}
-*/
-/*
 			for(int i=0; i<fourBooleanArray.length; i++){
 				pw.print("\t"+fourBooleanArray[i]);
-			}
-*/
-/*			
+			}			
 			for(int i=0; i<fiveBooleanArray.length; i++){
 				pw.print("\t"+fiveBooleanArray[i]);
-			}
-*/
-/*			
+			}			
 			for(int i=0; i<sixBooleanArray.length; i++){
 				pw.print("\t"+sixBooleanArray[i]);
-			}
-*/			
+			}			
 			pw.print("\n");
 		}				
 		pw.close();
